@@ -3,7 +3,7 @@ pipeline {
     stages{
     stage("checkout"){
         steps{
-        git branch: 'main', url:'ht tps://github.com/Rajattheonlyhero/course3-jenkins-gs-spring-petclinic'
+        git branch: 'main', url:'https://github.com/Rajattheonlyhero/course3-jenkins-gs-spring-petclinic'
         }
     }
     stage("build"){
